@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.parking.parking_app.viewController.Login_viewController">
+   <children>
+      <VBox fx:id="vboxIzquierdo" layoutY="1.0" minHeight="400.0" prefHeight="400.0" prefWidth="180.0" style="-fx-background-color: #2196F3;" />
+      <TextField fx:id="txtidcliente" layoutX="300.0" layoutY="131.0" prefHeight="25.0" prefWidth="174.0" promptText="Identification" />
+      <TextField fx:id="txtnamecliente" layoutX="300.0" layoutY="201.0" prefHeight="25.0" prefWidth="174.0" promptText="full name" />
+      <Text layoutX="303.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Id" />
+      <Text layoutX="303.0" layoutY="186.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name" />
+      <Button layoutX="364.0" layoutY="237.0" mnemonicParsing="false" onAction="#onLoginCliente" style="-fx-background-color: #2196F3;" text="log in" textFill="WHITE" />
+      <Button layoutX="358.0" layoutY="322.0" mnemonicParsing="false" onAction="#onRegisterCliente" style="-fx-background-color: #2196F3;" text="register" textFill="WHITE" />
+      <Text layoutX="314.0" layoutY="307.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Don't you have an account?" />
+      <Text layoutX="319.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Log in" wrappingWidth="135.1328125">
+         <font>
+            <Font name="Bell MT" size="37.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
